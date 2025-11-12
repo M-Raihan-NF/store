@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.iklan { 
+    gap: 50PX;
+    display: flex;
+    justify-content: center;
+} 
+
+.category{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.card{
+    width: 16rem;
+    height: 360px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0);
+    overflow: hidden;
+    background-color: white;
+    justify-items: center;
+}
+.card img{
+    width: 100%;
+    display: block;
+    height: 200px;
+}
+
+
+         .btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
